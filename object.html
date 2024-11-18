@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="object.css">
+    <script src="object.js"></script>
+</head>
+<body>
+    <h1>Tanulók és Heti Órarend</h1>
+
+    <section>
+        <h2>1. Feladat: Tanulók adatainak bevitele</h2>
+        <label for="studentCount">Hány adatot szeretnél megadni?</label>
+        <input type="number" id="studentCount" min="1" placeholder="Írj be egy számot">
+        <button onclick="addStudents()">Tanulók hozzáadása</button>
+
+        <div class="output" id="studentsOutput"></div>
+    </section>
+
+    <section>
+        <h2>2. Feladat: Órarend Megjelenítése</h2>
+        <button onclick="showSchedule()">Órarend megjelenítése</button>
+        <div class="output" id="scheduleOutput"></div>
+    </section>
+</body>
+</html>
